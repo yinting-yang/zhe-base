@@ -7,9 +7,8 @@ import java.net.URLDecoder;
  * ClassName: ${name}
  * Function:
  * Reason: TODO ADD REASON(可选).
- * date: 2017年03月18日 09:32
  *
- * @author caijun.wei
+ * @author zhe.yang
  * @since JDK 1.8
  */
 public class SerializationUtil {

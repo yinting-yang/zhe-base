@@ -4,9 +4,7 @@ package com.zhe.utils;
  * ClassName: SnowflakeIdUtil
  * Function:生成唯一ID
  * Reason: TODO ADD REASON(可选).
- * date: 2017年03月08日 13:27
- *
- * @author caijun.wei
+ * @author zhe.yang
  * @since JDK 1.7
  */
 public class SnowflakeIdUtil {

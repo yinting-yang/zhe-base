@@ -6,11 +6,12 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Author:zhe.yang
- * @Description:
+ * @Description:获取IP
  * @DATE:Created in 10:53 2017/10/27 0027
  */
 
 public class RequestUtil {
+    //HTTP 扩展头部
     private final static String[] heads = {"x-forwarded-for", "Proxy-Client-IP", "WL-Proxy-Client-IP"};
 
     public static String getIp(HttpServletRequest request) {

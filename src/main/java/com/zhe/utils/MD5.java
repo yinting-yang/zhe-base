@@ -6,9 +6,7 @@ import java.security.MessageDigest;
  * ClassName: MD5
  * Function:MD5加密
  * Reason: TODO ADD REASON(可选).
- * date: 2017年02月23日 17:06
- *
- * @author caijun.wei
+ * @author zhe.yang
  * @since JDK 1.7
  */
 public class MD5 {

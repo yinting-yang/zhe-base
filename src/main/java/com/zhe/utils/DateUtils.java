@@ -7,9 +7,7 @@ import java.util.*;
  * ClassName: DateUtils
  * Function:  日期处理实体类
  * Reason: TODO ADD REASON(可选).
- * date: 2017年02月23日 17:18
- *
- * @author caijun.wei
+ * @author zhe.yang
  * @since JDK 1.7
  */
 public class DateUtils {

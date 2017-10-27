@@ -7,4 +7,37 @@ package com.zhe.utils;
  */
 
 public class StringUtil {
+    /**
+     * 判断字符串是否为空
+     *
+     * @param str:
+     * @return
+     */
+    public static boolean isEmpty(String str) {
+        return (str == null || str.length() == 0);
+    }
+
+    /**
+     * 判断字符串是否为空或空窜
+     *
+     * @param str
+     * @return
+     */
+    public static boolean isTrimEmpty(String str) {
+        return (str == null || str.trim().length() == 0);
+    }
+
+    /**
+     * HTTP参数安全过滤
+     *
+     * @param str
+     * @return
+     */
+    public static String htmlFormat(String str) {
+        if (isTrimEmpty(str)) {
+            return str;
+        } else {
+            return str.replaceAll("<", "＜").replaceAll(">", "＞");
+        }
+    }
 }

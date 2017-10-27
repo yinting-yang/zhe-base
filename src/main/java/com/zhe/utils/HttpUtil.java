@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * user:weicj
+ * user:zhe.yang
  * company:TMG
  * detetime:2014/12/8 11:02
  * Description:HTTP工具处理类

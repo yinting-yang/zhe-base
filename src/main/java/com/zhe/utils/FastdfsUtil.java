@@ -14,9 +14,7 @@ import java.util.UUID;
  * ClassName: FastdfsUtil
  * Function:
  * Reason: TODO ADD REASON(可选).
- * date: 2017年03月02日 13:48
- *
- * @author caijun.wei
+ * @author zhe.yang
  * @since JDK 1.7
  */
 public class FastdfsUtil {

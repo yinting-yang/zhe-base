@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @Author:zhe.yang
- * @Description:
+ * @Description:Cookie常用的工具类
  * @DATE:Created in 10:30 2017/10/27 0027
  */
 
