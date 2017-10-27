@@ -1,4 +1,4 @@
-package com.zhe.resp;
+package com.zhe.model;
 
 import java.io.Serializable;
 
