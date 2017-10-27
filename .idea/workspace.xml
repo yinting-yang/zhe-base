@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a152063a-c9b4-4410-b3b5-90035781a2a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/DateUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/EmailUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/FastdfsUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/HttpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/MD5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/RedisUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/SerializationUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/SnowflakeIdUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/StringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/web/CookieUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/web/RequestUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/utils/web/SessionUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/model/SysState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/model/UserConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/model/ZheException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhe-base.iml" afterPath="$PROJECT_DIR$/zhe-base.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhe/resp/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/model/Page.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/zhe/resp/ResponseModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/zhe/model/ResponseModel.java" />
     </list>
     <ignored path="zhe-base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +31,38 @@
     <favorites_list name="zhe-base" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ZheException.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhe/model/ZheException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhe/model/UserConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="method#Status#0;class#Status#0;class#UserConstant#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +100,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhe/utils/FastdfsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhe/utils/EmailUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhe/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhe/model/SysState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhe/model/ZheException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhe/model/UserConstant.java" />
       </list>
     </option>
   </component>
@@ -99,20 +123,6 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="zhe-base" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -226,6 +236,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhe-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhe-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhe-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhe-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -654,16 +720,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509069250352</updated>
-      <workItem from="1509069253161" duration="5857000" />
+      <workItem from="1509069253161" duration="8161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5857000" />
+    <option name="totallyTimeSpent" value="8161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -675,7 +741,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -716,19 +782,19 @@
         <state relative-caret-position="-942">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getCookieValue#0;class#CookieUtil#0" expanded="true" />
-            <element signature="method#getCookieValue#1;class#CookieUtil#0" expanded="true" />
-            <element signature="method#getCookieValue#2;class#CookieUtil#0" expanded="true" />
-            <element signature="method#setCookie#0;class#CookieUtil#0" expanded="true" />
-            <element signature="method#setCookie#1;class#CookieUtil#0" expanded="true" />
-            <element signature="method#setCookie#2;class#CookieUtil#0" expanded="true" />
-            <element signature="method#setCookie#3;class#CookieUtil#0" expanded="true" />
-            <element signature="method#setCookie#4;class#CookieUtil#0" expanded="true" />
-            <element signature="method#deleteCookie#0;class#CookieUtil#0" expanded="true" />
-            <element signature="method#doSetCookie#0;class#CookieUtil#0" expanded="true" />
-            <element signature="method#doSetCookie#1;class#CookieUtil#0" expanded="true" />
-            <element signature="method#getDomainName#0;class#CookieUtil#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#getCookieValue#0;class#CookieUtil#0" expanded="false" />
+            <element signature="method#getCookieValue#1;class#CookieUtil#0" expanded="false" />
+            <element signature="method#getCookieValue#2;class#CookieUtil#0" expanded="false" />
+            <element signature="method#setCookie#0;class#CookieUtil#0" expanded="false" />
+            <element signature="method#setCookie#1;class#CookieUtil#0" expanded="false" />
+            <element signature="method#setCookie#2;class#CookieUtil#0" expanded="false" />
+            <element signature="method#setCookie#3;class#CookieUtil#0" expanded="false" />
+            <element signature="method#setCookie#4;class#CookieUtil#0" expanded="false" />
+            <element signature="method#deleteCookie#0;class#CookieUtil#0" expanded="false" />
+            <element signature="method#doSetCookie#0;class#CookieUtil#0" expanded="false" />
+            <element signature="method#doSetCookie#1;class#CookieUtil#0" expanded="false" />
+            <element signature="method#getDomainName#0;class#CookieUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -738,9 +804,9 @@
         <state relative-caret-position="136">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getIp#0;class#RequestUtil#0" expanded="true" />
-            <element signature="method#getProxyIp#0;class#RequestUtil#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#getIp#0;class#RequestUtil#0" expanded="false" />
+            <element signature="method#getProxyIp#0;class#RequestUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -758,7 +824,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="method#SnowflakeIdUtil#0;class#SnowflakeIdUtil#0" expanded="true" />
+            <element signature="method#SnowflakeIdUtil#0;class#SnowflakeIdUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -768,9 +834,9 @@
         <state relative-caret-position="1224">
           <caret line="74" column="18" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="18" />
           <folding>
-            <element signature="method#serialization#0;class#SerializationUtil#0" expanded="true" />
-            <element signature="method#deserialize#0;class#SerializationUtil#0" expanded="true" />
-            <element signature="method#close#0;class#SerializationUtil#0" expanded="true" />
+            <element signature="method#serialization#0;class#SerializationUtil#0" expanded="false" />
+            <element signature="method#deserialize#0;class#SerializationUtil#0" expanded="false" />
+            <element signature="method#close#0;class#SerializationUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,22 +846,22 @@
         <state relative-caret-position="153">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#init#0;class#RedisUtil#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="method#getJedis#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#returnJedis#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#set#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#set#1;class#RedisUtil#0" expanded="true" />
-            <element signature="method#get#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#del#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#expire#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#lock#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#setnx#0;class#RedisUtil#0" expanded="true" />
-            <element signature="method#main#0;class#RedisUtil#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#init#0;class#RedisUtil#0" expanded="false" />
+            <element signature="e#1171#1172#0" expanded="false" />
+            <element signature="e#1219#1220#0" expanded="false" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1433#1434#0" expanded="false" />
+            <element signature="method#getJedis#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#returnJedis#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#set#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#set#1;class#RedisUtil#0" expanded="false" />
+            <element signature="method#get#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#del#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#expire#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#lock#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#setnx#0;class#RedisUtil#0" expanded="false" />
+            <element signature="method#main#0;class#RedisUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -805,7 +871,7 @@
         <state relative-caret-position="136">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="method#md5#0;class#MD5#0" expanded="true" />
+            <element signature="method#md5#0;class#MD5#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,11 +881,11 @@
         <state relative-caret-position="-887">
           <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding>
-            <element signature="initializer##0;class#HttpUtil#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="method#post#1;class#HttpUtil#0" expanded="true" />
-            <element signature="method#get#0;class#HttpUtil#0" expanded="true" />
+            <element signature="initializer##0;class#HttpUtil#0" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="method#post#1;class#HttpUtil#0" expanded="false" />
+            <element signature="method#get#0;class#HttpUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,11 +895,11 @@
         <state relative-caret-position="476">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="24" />
           <folding>
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="method#upload#0;class#FastdfsUtil#0" expanded="true" />
-            <element signature="method#upload#1;class#FastdfsUtil#0" expanded="true" />
-            <element signature="method#getExtName#0;class#FastdfsUtil#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="method#upload#0;class#FastdfsUtil#0" expanded="false" />
+            <element signature="method#upload#1;class#FastdfsUtil#0" expanded="false" />
+            <element signature="method#getExtName#0;class#FastdfsUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -859,10 +925,10 @@
         <state relative-caret-position="187">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getSession#0;class#SessionUtil#0" expanded="true" />
-            <element signature="method#addSession#0;class#SessionUtil#0" expanded="true" />
-            <element signature="method#delSession#0;class#SessionUtil#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#getSession#0;class#SessionUtil#0" expanded="false" />
+            <element signature="method#addSession#0;class#SessionUtil#0" expanded="false" />
+            <element signature="method#delSession#0;class#SessionUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,8 +938,8 @@
         <state relative-caret-position="391">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -883,11 +949,45 @@
         <state relative-caret-position="493">
           <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="method#ResponseModel#0;class#ResponseModel#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="method#toString#0;class#ResponseModel#0" expanded="true" />
+            <element signature="method#ResponseModel#0;class#ResponseModel#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="method#toString#0;class#ResponseModel#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhe/model/SysState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhe/model/UserConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="method#Status#0;class#Status#0;class#UserConstant#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhe/model/ZheException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
