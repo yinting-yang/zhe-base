@@ -10,19 +10,20 @@ public enum DefaultError implements ErrorInterface {
 	PROCESSING_ERROR("-4","请求处理中,请稍后再试");
 
 	private String code;
-	private String desc;
+	private String msg;
 
+	@Override
 	public String getCode() {
 		return code;
 	}
 
-	public String getDesc() {
-		return desc;
-	}
-
-	DefaultError(String code, String desc) {
+	DefaultError(String code, String msg) {
 		this.code = code;
-		this.desc = desc;
+		this.msg = msg;
 	}
+	@Override
+	public String getMsg() {
 
+		return msg;
+	}
 }
