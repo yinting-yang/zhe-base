@@ -84,6 +84,6 @@ public class BizException extends RuntimeException {
     }
 
     public String getMessage() {
-        return MessageFormat.format(this.getErrorMsg().getErrorEnum().getDesc(), this.getErrorMsg().getParams());
+        return MessageFormat.format(this.getErrorMsg().getErrorEnum().getMsg(), this.getErrorMsg().getParams());
     }
 }

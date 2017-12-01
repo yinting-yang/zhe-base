@@ -8,5 +8,5 @@ public interface ErrorInterface {
 
 	 String getCode();
 
-	 String getDesc();
+	 String getMsg();
 }
