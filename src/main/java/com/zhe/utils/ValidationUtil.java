@@ -1,7 +1,10 @@
 package com.zhe.utils;
 
-import annotation.*;
+
 import com.google.gson.Gson;
+import com.zhe.annotation.*;
+import com.zhe.annotation.Number;
+
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.*;
@@ -43,7 +46,7 @@ public final class ValidationUtil {
 
     static ThreadLocal<List<String>> localList = new ThreadLocal<List<String>>() {
         protected List<String> initialValue() {
-            return new ArrayList<>();
+            return new ArrayList<String>();
         }
 
         ;
@@ -286,7 +289,7 @@ public final class ValidationUtil {
     }
 
     private static List<Class> getRealClass(Object obj) throws IllegalAccessException {
-        List<Class> listRealClass = new ArrayList<>();
+        List<Class> listRealClass = new ArrayList<Class>();
         Field[] fields = obj.getClass().getDeclaredFields();
         if (obj instanceof List) {
             for (Field fd : fields) {

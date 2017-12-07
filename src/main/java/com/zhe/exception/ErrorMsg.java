@@ -60,9 +60,9 @@ public class ErrorMsg implements Serializable {
 		if (errorEnum == null) {
 			return "用户未定义异常";
 		} else if (params == null && params.length < 1) {
-			return errorEnum.getDesc();
+			return errorEnum.getMsg();
 		} else {
-			return MessageFormat.format(errorEnum.getDesc(), params);
+			return MessageFormat.format(errorEnum.getMsg(), params);
 		}
 	}
 
