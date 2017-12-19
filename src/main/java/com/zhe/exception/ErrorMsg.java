@@ -30,6 +30,8 @@ public class ErrorMsg implements Serializable {
 	}
 
 	public ErrorMsg(ErrorInterface errorEnum, String param) {
+
+
 		this.errorEnum = errorEnum;
 		this.params = new String[] { param };
 	}

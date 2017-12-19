@@ -8,13 +8,23 @@ import java.io.Serializable;
  * @DATE:Created in 10:12 2017/10/27 0027
  */
 
-public class ResponseModel<T> implements Serializable{
+public class ResModel<T> implements Serializable{
     private String code;
     private String msg;
     private T data;
     private Page page;
 
-    public ResponseModel() {
+    public Object getErrData() {
+        return errData;
+    }
+
+    public void setErrData(Object errData) {
+        this.errData = errData;
+    }
+
+    private Object errData;
+
+    public ResModel() {
     }
 
     public String getCode() {
