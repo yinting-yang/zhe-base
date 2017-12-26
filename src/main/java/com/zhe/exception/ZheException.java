@@ -7,14 +7,14 @@ import java.text.MessageFormat;
  *
  * @author huangsheng
  */
-public class BizException extends RuntimeException {
+public class ZheException extends RuntimeException {
 
     /**
      * 错误消息 (枚举类型+参数)
      */
     protected ErrorMsg errorMsg;
 
-    public BizException() {
+    public ZheException() {
         super();
         this.errorMsg = new ErrorMsg(DefaultError.UNDEFINED_ERROR);
     }
@@ -24,12 +24,12 @@ public class BizException extends RuntimeException {
      *
      * @param message
      */
-    public BizException(String message) {
+    public ZheException(String message) {
         super();
         this.errorMsg = new ErrorMsg(DefaultError.MESSAGE_ERROR, message);
     }
 
-    public BizException(String message, Throwable cause) {
+    public ZheException(String message, Throwable cause) {
         super();
         this.errorMsg = new ErrorMsg(DefaultError.MESSAGE_ERROR, message);
     }
@@ -39,7 +39,7 @@ public class BizException extends RuntimeException {
      *
      * @param errorEnum
      */
-    public BizException(ErrorInterface errorEnum) {
+    public ZheException(ErrorInterface errorEnum) {
         super();
         this.errorMsg = new ErrorMsg(errorEnum);
     }
@@ -49,7 +49,7 @@ public class BizException extends RuntimeException {
      *
      * @param errorEnum
      */
-    public BizException(ErrorInterface errorEnum, String[] msgParams) {
+    public ZheException(ErrorInterface errorEnum, String[] msgParams) {
         super();
         this.errorMsg = new ErrorMsg(errorEnum, msgParams);
     }
@@ -59,18 +59,18 @@ public class BizException extends RuntimeException {
      *
      * @param errorEnum
      */
-    public BizException(ErrorInterface errorEnum, String msgParam) {
+    public ZheException(ErrorInterface errorEnum, String msgParam) {
         super();
         this.errorMsg = new ErrorMsg(errorEnum, msgParam);
     }
 
-    public BizException(ErrorInterface errorEnum, String[] msgParams, Throwable cause) {
+    public ZheException(ErrorInterface errorEnum, String[] msgParams, Throwable cause) {
         super(cause);
         this.errorMsg = new ErrorMsg(errorEnum, msgParams);
 
     }
 
-    public BizException(ErrorInterface errorEnum, String msgParam, Throwable cause) {
+    public ZheException(ErrorInterface errorEnum, String msgParam, Throwable cause) {
         super(cause);
         this.errorMsg = new ErrorMsg(errorEnum, msgParam);
     }

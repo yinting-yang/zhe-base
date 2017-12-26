@@ -1,5 +1,7 @@
 package com.zhe.model;
 
+import com.zhe.exception.ErrorInterface;
+
 import java.io.Serializable;
 
 /**
@@ -25,6 +27,49 @@ public class ResModel<T> implements Serializable{
     private Object errData;
 
     public ResModel() {
+
+
+    }
+
+    public void success(T data) {
+        this.code = "000000";
+        this.msg = "成功";
+        this.data = data;
+    }
+
+    public void failed(ErrorInterface status) {
+        this.code = status.getCode();
+        this.msg = status.getMsg();
+    }
+
+    public void error() {
+        this.code = "999999";
+        this.msg = "失败";
+    }
+
+    public ResModel(T data) {
+        this.code ="000000";
+        this.msg = "成功";
+        this.data = data;
+    }
+
+
+
+    public ResModel(ErrorInterface state, T data) {
+        this.code = state.getCode();
+        this.msg = state.getMsg();
+        this.data = data;
+    }
+
+    public void set(String code, String msg, T data) {
+        this.code = code;
+        this.msg = msg;
+        this.data = data;
+    }
+
+    public void set(String code, String msg) {
+        this.code = code;
+        this.msg = msg;
     }
 
     public String getCode() {

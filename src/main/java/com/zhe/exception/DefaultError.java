@@ -2,6 +2,8 @@ package com.zhe.exception;
 
 public enum DefaultError implements ErrorInterface {
 	// 仅异常消息
+	ERROR("999999", "失败"),
+	SUCCEED("000000", "成功"),
 	MESSAGE_ERROR("-1", "{0}"),
 	// 未定义异常--供自定义异常使用
 	UNDEFINED_ERROR("-2", "undefined error"),
