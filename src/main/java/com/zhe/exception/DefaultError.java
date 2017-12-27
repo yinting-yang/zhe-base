@@ -4,6 +4,8 @@ public enum DefaultError implements ErrorInterface {
 	// 仅异常消息
 	ERROR("999999", "失败"),
 	SUCCEED("000000", "成功"),
+	KIND_ERROR("000001","请求参数错误"),
+
 	MESSAGE_ERROR("-1", "{0}"),
 	// 未定义异常--供自定义异常使用
 	UNDEFINED_ERROR("-2", "undefined error"),

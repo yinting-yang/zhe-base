@@ -30,7 +30,7 @@ public class ZheException extends RuntimeException {
     }
 
     public ZheException(String message, Throwable cause) {
-        super();
+        super(cause);
         this.errorMsg = new ErrorMsg(DefaultError.MESSAGE_ERROR, message);
     }
 
